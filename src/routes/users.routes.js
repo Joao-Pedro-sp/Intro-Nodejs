@@ -9,4 +9,4 @@ usersRoutes.post("/", (request, response) => {
   response.send(`Usuario: ${name}. - E-mail: ${email}. E a senha e: ${password}`)
 })
 
-module.export = usersRoutes;
+module.exports = usersRoutes;
